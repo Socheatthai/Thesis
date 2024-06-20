@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* logo style*/
+
+.logo-link {
+    display: inline-block;
+    /* Ensure the logo link and its content are on the same line */
+    color: #1a1a1a;
+    /* Pick color for the text */
+    text-decoration: none;
+    /* Remove underline from the link */
+}
+
+/* Style for the logo */
+.logo {
+    height: 50px;
+    /* Adjust the height to make it bigger vertically */
+    width: auto;
+    margin-left: 20px;
+    /* Maintain aspect ratio */
+    vertical-align: middle;
+    /* Align the logo vertically with the text */
+    /* margin-bottom: 20px;  */
+}
+
+/* Style for the logo text */
+.logo-text {
+    font-size: 25px;
+    /* Set font size to match the logo */
+    margin-left: -5px;
+    font-weight: 600;
+    color: #1a1a1a;
+    /* padding-bottom: 30px; */
+    /* padding-bottom: -10px; */
+
+    /* Add some space to the right of the logo */
+}
+
+/* Header Start */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a: {
+    color: lightpink;
+}
