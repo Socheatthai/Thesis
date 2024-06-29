@@ -17,7 +17,9 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='nav-logo'>
-                <img src={logo5} alt="" />
+                <Link to="/home">
+                    <img src={logo5} alt="" />
+                </Link>
                 <p className='text-red-400'>WALLET WATCHER</p>
             </div>
             <ul className='nav-menu'>

@@ -2,6 +2,8 @@ import React from 'react';
 import Image1 from '../Assets/image-1.png'
 import Image2 from '../Assets/image2.png'
 import Image3 from '../Assets/image3.png'
+import { Link } from 'react-router-dom';
+
 
 
 const Watcher = () => {
@@ -71,13 +73,12 @@ const Watcher = () => {
                             </div>
                         </section>
 
-                        <div className="get-started-container text-center mt-10">
+                        {/* <div className="get-started-container text-center mt-10">
                             <div className="seperator mt-10"></div>
-                            <a href="/register#/?redirect_url=blockonomics" className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full inline-block text-xl gap:20 mb-20">
+                            <Link to="/home" className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full inline-block text-xl gap:20 mb-20">
                                 Find Your Wallet Address
-                            </a>
-
-                        </div>
+                            </Link>
+                        </div> */}
 
 
 
