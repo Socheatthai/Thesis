@@ -97,7 +97,7 @@ const Visualization = () => {
         .attr('fill', '#666')
         .attr('font-size', '10px')
         .attr('text-anchor', 'middle')
-        .text(d => `${d.value} ETH`);
+        // .text(d => `${d.value} ETH`);
 
       const node = svg.append('g')
         .attr('stroke', '#fff')
